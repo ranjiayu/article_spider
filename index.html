@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ran's Index</title>
+</head>
+<body>
+    <% for key, value in data %>
+        <h1><%= key %></h1>
+        <ul>
+            <% for item in value %>
+            <li><a href="<%= item[:link] %>"><%= item[:title] %></a></li>
+            <% end %>
+        </ul>
+    <% end %>
+</body>
+</html>
