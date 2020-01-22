@@ -6,7 +6,7 @@ module RSSIndex
 
   class Fetcher
     @@resources = {
-      hackek_news: 'https://hnrss.org/frontpage',
+      hacker_news: 'https://hnrss.org/frontpage',
       ruby_weekly: 'https://rubyweekly.com/rss',
       infoq: 'https://www.infoq.cn/feed.xml'
     }
