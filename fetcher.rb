@@ -8,7 +8,10 @@ module RSSIndex
     @@resources = {
       hacker_news: 'https://hnrss.org/frontpage',
       ruby_weekly: 'https://rubyweekly.com/rss',
-      infoq: 'https://www.infoq.cn/feed.xml'
+      infoq: 'https://www.infoq.cn/feed.xml',
+      v2ex: 'https://rsshub.app/v2ex/topics/latest',
+      hupu: 'https://rsshub.app/hupu/bbs/bxj/3',
+      meituan_tech: 'https://rsshub.app/meituan/tech/home'
     }
 
     def initialize
